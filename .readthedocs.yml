@@ -3,4 +3,10 @@ version: 2
 mkdocs:
   configuration: mkdocs.yml
 
-formats: all
+formats: []
+
+python:
+  version: 3.7
+  install:
+    - requirements: pip-requirements.txt
+    - method: pip
