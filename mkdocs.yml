@@ -1,10 +1,10 @@
 site_name: Forge Networking Remastered
-pages:
-    - Home:
-        - index.md
-        - authoritative-design.md
+repo_url: https://github.com/BeardedManStudios/ForgeNetworkingRemastered
+
+nav:
+    - Home: index.md
     - Getting Started:
-        - GettingStarted/getting-started.md
+        - GettingStarted/installation.md
         - GettingStarted/basic-moving-cube-example.md
         - GettingStarted/basic-rpc-example.md
         - GettingStarted/basic-instantiation-example.md
@@ -77,3 +77,5 @@ theme: readthedocs
 
 markdown_extensions:
     - pyembed.markdown
+    - toc:
+        baselevel: 2
